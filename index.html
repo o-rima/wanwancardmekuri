@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>わんわんカードめくり</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="start-screen">
+        <button id="startButton">🐾 Start 🐾</button>
+    </div>
+
+    <div id="mainContent" class="hidden">
+      <!-- ここにメインコンテンツを追加 -->
+  </div>
+        <!-- ここにメインコンテンツを配置 -->
+
+        <head>
+          <meta charset="UTF-8" />
+          <title>わんわんカードめくり</title>
+          <link rel="stylesheet" href="css/reset.css" />
+          <link rel="stylesheet" href="css/style.css" />
+        </head>
+      
+        <body>
+          <div class="haikei">
+          <h1 class="page-title">🐶わんわんカードめくり🐶</h1>
+      
+            <div id="game_board">
+            </div>
+            <div id="result">
+              開始から: 
+            </div>
+      </div>
+
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reload Button</title>
+    </head>
+    <body>
+      <div class="reload-screen">
+        <button id="reloadButton">✨ Retry ✨</button>
+      </div>
+      
+        <script>
+            // ページをリロードする関数
+            function reloadPage() {
+                location.reload(); // ページをリロード
+            }
+    
+            // ボタン要素を取得
+            const reloadButton = document.getElementById('reloadButton');
+    
+            // ボタンがクリックされた時にページをリロードするイベントリスナーを追加
+            reloadButton.addEventListener('click', reloadPage);
+        </script>
+    </body>
+
+          <script src="js/jquery-3.7.1.min.js"></script>
+          <script src="js/script.js"></script>
+        </body>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
